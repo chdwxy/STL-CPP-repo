@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/deque.dir/Deque/deque.cpp.o"
-  "CMakeFiles/deque.dir/Deque/deque.cpp.o.d"
+  "CMakeFiles/deque.dir/Deque/main.cpp.o"
+  "CMakeFiles/deque.dir/Deque/main.cpp.o.d"
   "bin/deque"
   "bin/deque.pdb"
 )

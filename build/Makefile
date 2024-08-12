@@ -220,197 +220,197 @@ priority_queue/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue.dir/build.make CMakeFiles/priority_queue.dir/build
 .PHONY : priority_queue/fast
 
-Deque/deque.o: Deque/deque.cpp.o
-.PHONY : Deque/deque.o
+Deque/main.o: Deque/main.cpp.o
+.PHONY : Deque/main.o
 
 # target to build an object file
-Deque/deque.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/deque.dir/build.make CMakeFiles/deque.dir/Deque/deque.cpp.o
-.PHONY : Deque/deque.cpp.o
+Deque/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/deque.dir/build.make CMakeFiles/deque.dir/Deque/main.cpp.o
+.PHONY : Deque/main.cpp.o
 
-Deque/deque.i: Deque/deque.cpp.i
-.PHONY : Deque/deque.i
+Deque/main.i: Deque/main.cpp.i
+.PHONY : Deque/main.i
 
 # target to preprocess a source file
-Deque/deque.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/deque.dir/build.make CMakeFiles/deque.dir/Deque/deque.cpp.i
-.PHONY : Deque/deque.cpp.i
+Deque/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/deque.dir/build.make CMakeFiles/deque.dir/Deque/main.cpp.i
+.PHONY : Deque/main.cpp.i
 
-Deque/deque.s: Deque/deque.cpp.s
-.PHONY : Deque/deque.s
+Deque/main.s: Deque/main.cpp.s
+.PHONY : Deque/main.s
 
 # target to generate assembly for a file
-Deque/deque.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/deque.dir/build.make CMakeFiles/deque.dir/Deque/deque.cpp.s
-.PHONY : Deque/deque.cpp.s
+Deque/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/deque.dir/build.make CMakeFiles/deque.dir/Deque/main.cpp.s
+.PHONY : Deque/main.cpp.s
 
-HashTable/HashTable.o: HashTable/HashTable.cpp.o
-.PHONY : HashTable/HashTable.o
+HashTable/main.o: HashTable/main.cpp.o
+.PHONY : HashTable/main.o
 
 # target to build an object file
-HashTable/HashTable.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HashTable.dir/build.make CMakeFiles/HashTable.dir/HashTable/HashTable.cpp.o
-.PHONY : HashTable/HashTable.cpp.o
+HashTable/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HashTable.dir/build.make CMakeFiles/HashTable.dir/HashTable/main.cpp.o
+.PHONY : HashTable/main.cpp.o
 
-HashTable/HashTable.i: HashTable/HashTable.cpp.i
-.PHONY : HashTable/HashTable.i
+HashTable/main.i: HashTable/main.cpp.i
+.PHONY : HashTable/main.i
 
 # target to preprocess a source file
-HashTable/HashTable.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HashTable.dir/build.make CMakeFiles/HashTable.dir/HashTable/HashTable.cpp.i
-.PHONY : HashTable/HashTable.cpp.i
+HashTable/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HashTable.dir/build.make CMakeFiles/HashTable.dir/HashTable/main.cpp.i
+.PHONY : HashTable/main.cpp.i
 
-HashTable/HashTable.s: HashTable/HashTable.cpp.s
-.PHONY : HashTable/HashTable.s
+HashTable/main.s: HashTable/main.cpp.s
+.PHONY : HashTable/main.s
 
 # target to generate assembly for a file
-HashTable/HashTable.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HashTable.dir/build.make CMakeFiles/HashTable.dir/HashTable/HashTable.cpp.s
-.PHONY : HashTable/HashTable.cpp.s
+HashTable/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HashTable.dir/build.make CMakeFiles/HashTable.dir/HashTable/main.cpp.s
+.PHONY : HashTable/main.cpp.s
 
-List/list.o: List/list.cpp.o
-.PHONY : List/list.o
+List/main.o: List/main.cpp.o
+.PHONY : List/main.o
 
 # target to build an object file
-List/list.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/List/list.cpp.o
-.PHONY : List/list.cpp.o
+List/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/List/main.cpp.o
+.PHONY : List/main.cpp.o
 
-List/list.i: List/list.cpp.i
-.PHONY : List/list.i
+List/main.i: List/main.cpp.i
+.PHONY : List/main.i
 
 # target to preprocess a source file
-List/list.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/List/list.cpp.i
-.PHONY : List/list.cpp.i
+List/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/List/main.cpp.i
+.PHONY : List/main.cpp.i
 
-List/list.s: List/list.cpp.s
-.PHONY : List/list.s
+List/main.s: List/main.cpp.s
+.PHONY : List/main.s
 
 # target to generate assembly for a file
-List/list.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/List/list.cpp.s
-.PHONY : List/list.cpp.s
+List/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/List/main.cpp.s
+.PHONY : List/main.cpp.s
 
-Queue/Queue.o: Queue/Queue.cpp.o
-.PHONY : Queue/Queue.o
+Queue/main.o: Queue/main.cpp.o
+.PHONY : Queue/main.o
 
 # target to build an object file
-Queue/Queue.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Queue.dir/build.make CMakeFiles/Queue.dir/Queue/Queue.cpp.o
-.PHONY : Queue/Queue.cpp.o
+Queue/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Queue.dir/build.make CMakeFiles/Queue.dir/Queue/main.cpp.o
+.PHONY : Queue/main.cpp.o
 
-Queue/Queue.i: Queue/Queue.cpp.i
-.PHONY : Queue/Queue.i
+Queue/main.i: Queue/main.cpp.i
+.PHONY : Queue/main.i
 
 # target to preprocess a source file
-Queue/Queue.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Queue.dir/build.make CMakeFiles/Queue.dir/Queue/Queue.cpp.i
-.PHONY : Queue/Queue.cpp.i
+Queue/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Queue.dir/build.make CMakeFiles/Queue.dir/Queue/main.cpp.i
+.PHONY : Queue/main.cpp.i
 
-Queue/Queue.s: Queue/Queue.cpp.s
-.PHONY : Queue/Queue.s
+Queue/main.s: Queue/main.cpp.s
+.PHONY : Queue/main.s
 
 # target to generate assembly for a file
-Queue/Queue.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Queue.dir/build.make CMakeFiles/Queue.dir/Queue/Queue.cpp.s
-.PHONY : Queue/Queue.cpp.s
+Queue/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Queue.dir/build.make CMakeFiles/Queue.dir/Queue/main.cpp.s
+.PHONY : Queue/main.cpp.s
 
-RedBlackTree/RedBlackTree.o: RedBlackTree/RedBlackTree.cpp.o
-.PHONY : RedBlackTree/RedBlackTree.o
+RedBlackTree/main.o: RedBlackTree/main.cpp.o
+.PHONY : RedBlackTree/main.o
 
 # target to build an object file
-RedBlackTree/RedBlackTree.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RedBlackTree.dir/build.make CMakeFiles/RedBlackTree.dir/RedBlackTree/RedBlackTree.cpp.o
-.PHONY : RedBlackTree/RedBlackTree.cpp.o
+RedBlackTree/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RedBlackTree.dir/build.make CMakeFiles/RedBlackTree.dir/RedBlackTree/main.cpp.o
+.PHONY : RedBlackTree/main.cpp.o
 
-RedBlackTree/RedBlackTree.i: RedBlackTree/RedBlackTree.cpp.i
-.PHONY : RedBlackTree/RedBlackTree.i
+RedBlackTree/main.i: RedBlackTree/main.cpp.i
+.PHONY : RedBlackTree/main.i
 
 # target to preprocess a source file
-RedBlackTree/RedBlackTree.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RedBlackTree.dir/build.make CMakeFiles/RedBlackTree.dir/RedBlackTree/RedBlackTree.cpp.i
-.PHONY : RedBlackTree/RedBlackTree.cpp.i
+RedBlackTree/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RedBlackTree.dir/build.make CMakeFiles/RedBlackTree.dir/RedBlackTree/main.cpp.i
+.PHONY : RedBlackTree/main.cpp.i
 
-RedBlackTree/RedBlackTree.s: RedBlackTree/RedBlackTree.cpp.s
-.PHONY : RedBlackTree/RedBlackTree.s
+RedBlackTree/main.s: RedBlackTree/main.cpp.s
+.PHONY : RedBlackTree/main.s
 
 # target to generate assembly for a file
-RedBlackTree/RedBlackTree.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RedBlackTree.dir/build.make CMakeFiles/RedBlackTree.dir/RedBlackTree/RedBlackTree.cpp.s
-.PHONY : RedBlackTree/RedBlackTree.cpp.s
+RedBlackTree/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RedBlackTree.dir/build.make CMakeFiles/RedBlackTree.dir/RedBlackTree/main.cpp.s
+.PHONY : RedBlackTree/main.cpp.s
 
-Stack/Stack.o: Stack/Stack.cpp.o
-.PHONY : Stack/Stack.o
+Stack/main.o: Stack/main.cpp.o
+.PHONY : Stack/main.o
 
 # target to build an object file
-Stack/Stack.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stack.dir/build.make CMakeFiles/Stack.dir/Stack/Stack.cpp.o
-.PHONY : Stack/Stack.cpp.o
+Stack/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stack.dir/build.make CMakeFiles/Stack.dir/Stack/main.cpp.o
+.PHONY : Stack/main.cpp.o
 
-Stack/Stack.i: Stack/Stack.cpp.i
-.PHONY : Stack/Stack.i
+Stack/main.i: Stack/main.cpp.i
+.PHONY : Stack/main.i
 
 # target to preprocess a source file
-Stack/Stack.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stack.dir/build.make CMakeFiles/Stack.dir/Stack/Stack.cpp.i
-.PHONY : Stack/Stack.cpp.i
+Stack/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stack.dir/build.make CMakeFiles/Stack.dir/Stack/main.cpp.i
+.PHONY : Stack/main.cpp.i
 
-Stack/Stack.s: Stack/Stack.cpp.s
-.PHONY : Stack/Stack.s
+Stack/main.s: Stack/main.cpp.s
+.PHONY : Stack/main.s
 
 # target to generate assembly for a file
-Stack/Stack.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stack.dir/build.make CMakeFiles/Stack.dir/Stack/Stack.cpp.s
-.PHONY : Stack/Stack.cpp.s
+Stack/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stack.dir/build.make CMakeFiles/Stack.dir/Stack/main.cpp.s
+.PHONY : Stack/main.cpp.s
 
-Vector/vector.o: Vector/vector.cpp.o
-.PHONY : Vector/vector.o
+Vector/main.o: Vector/main.cpp.o
+.PHONY : Vector/main.o
 
 # target to build an object file
-Vector/vector.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/Vector/vector.cpp.o
-.PHONY : Vector/vector.cpp.o
+Vector/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/Vector/main.cpp.o
+.PHONY : Vector/main.cpp.o
 
-Vector/vector.i: Vector/vector.cpp.i
-.PHONY : Vector/vector.i
+Vector/main.i: Vector/main.cpp.i
+.PHONY : Vector/main.i
 
 # target to preprocess a source file
-Vector/vector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/Vector/vector.cpp.i
-.PHONY : Vector/vector.cpp.i
+Vector/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/Vector/main.cpp.i
+.PHONY : Vector/main.cpp.i
 
-Vector/vector.s: Vector/vector.cpp.s
-.PHONY : Vector/vector.s
+Vector/main.s: Vector/main.cpp.s
+.PHONY : Vector/main.s
 
 # target to generate assembly for a file
-Vector/vector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/Vector/vector.cpp.s
-.PHONY : Vector/vector.cpp.s
+Vector/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/Vector/main.cpp.s
+.PHONY : Vector/main.cpp.s
 
-priority_queue/priority_queue.o: priority_queue/priority_queue.cpp.o
-.PHONY : priority_queue/priority_queue.o
+priority_queue/main.o: priority_queue/main.cpp.o
+.PHONY : priority_queue/main.o
 
 # target to build an object file
-priority_queue/priority_queue.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue.dir/build.make CMakeFiles/priority_queue.dir/priority_queue/priority_queue.cpp.o
-.PHONY : priority_queue/priority_queue.cpp.o
+priority_queue/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue.dir/build.make CMakeFiles/priority_queue.dir/priority_queue/main.cpp.o
+.PHONY : priority_queue/main.cpp.o
 
-priority_queue/priority_queue.i: priority_queue/priority_queue.cpp.i
-.PHONY : priority_queue/priority_queue.i
+priority_queue/main.i: priority_queue/main.cpp.i
+.PHONY : priority_queue/main.i
 
 # target to preprocess a source file
-priority_queue/priority_queue.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue.dir/build.make CMakeFiles/priority_queue.dir/priority_queue/priority_queue.cpp.i
-.PHONY : priority_queue/priority_queue.cpp.i
+priority_queue/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue.dir/build.make CMakeFiles/priority_queue.dir/priority_queue/main.cpp.i
+.PHONY : priority_queue/main.cpp.i
 
-priority_queue/priority_queue.s: priority_queue/priority_queue.cpp.s
-.PHONY : priority_queue/priority_queue.s
+priority_queue/main.s: priority_queue/main.cpp.s
+.PHONY : priority_queue/main.s
 
 # target to generate assembly for a file
-priority_queue/priority_queue.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue.dir/build.make CMakeFiles/priority_queue.dir/priority_queue/priority_queue.cpp.s
-.PHONY : priority_queue/priority_queue.cpp.s
+priority_queue/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue.dir/build.make CMakeFiles/priority_queue.dir/priority_queue/main.cpp.s
+.PHONY : priority_queue/main.cpp.s
 
 # Help Target
 help:
@@ -428,30 +428,30 @@ help:
 	@echo "... list"
 	@echo "... priority_queue"
 	@echo "... vector"
-	@echo "... Deque/deque.o"
-	@echo "... Deque/deque.i"
-	@echo "... Deque/deque.s"
-	@echo "... HashTable/HashTable.o"
-	@echo "... HashTable/HashTable.i"
-	@echo "... HashTable/HashTable.s"
-	@echo "... List/list.o"
-	@echo "... List/list.i"
-	@echo "... List/list.s"
-	@echo "... Queue/Queue.o"
-	@echo "... Queue/Queue.i"
-	@echo "... Queue/Queue.s"
-	@echo "... RedBlackTree/RedBlackTree.o"
-	@echo "... RedBlackTree/RedBlackTree.i"
-	@echo "... RedBlackTree/RedBlackTree.s"
-	@echo "... Stack/Stack.o"
-	@echo "... Stack/Stack.i"
-	@echo "... Stack/Stack.s"
-	@echo "... Vector/vector.o"
-	@echo "... Vector/vector.i"
-	@echo "... Vector/vector.s"
-	@echo "... priority_queue/priority_queue.o"
-	@echo "... priority_queue/priority_queue.i"
-	@echo "... priority_queue/priority_queue.s"
+	@echo "... Deque/main.o"
+	@echo "... Deque/main.i"
+	@echo "... Deque/main.s"
+	@echo "... HashTable/main.o"
+	@echo "... HashTable/main.i"
+	@echo "... HashTable/main.s"
+	@echo "... List/main.o"
+	@echo "... List/main.i"
+	@echo "... List/main.s"
+	@echo "... Queue/main.o"
+	@echo "... Queue/main.i"
+	@echo "... Queue/main.s"
+	@echo "... RedBlackTree/main.o"
+	@echo "... RedBlackTree/main.i"
+	@echo "... RedBlackTree/main.s"
+	@echo "... Stack/main.o"
+	@echo "... Stack/main.i"
+	@echo "... Stack/main.s"
+	@echo "... Vector/main.o"
+	@echo "... Vector/main.i"
+	@echo "... Vector/main.s"
+	@echo "... priority_queue/main.o"
+	@echo "... priority_queue/main.i"
+	@echo "... priority_queue/main.s"
 .PHONY : help
 
 

@@ -69,28 +69,28 @@ include CMakeFiles/Stack.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Stack.dir/flags.make
 
-CMakeFiles/Stack.dir/Stack/Stack.cpp.o: CMakeFiles/Stack.dir/flags.make
-CMakeFiles/Stack.dir/Stack/Stack.cpp.o: /home/shaozeping/coding/STL/Stack/Stack.cpp
-CMakeFiles/Stack.dir/Stack/Stack.cpp.o: CMakeFiles/Stack.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Stack.dir/Stack/Stack.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Stack.dir/Stack/Stack.cpp.o -MF CMakeFiles/Stack.dir/Stack/Stack.cpp.o.d -o CMakeFiles/Stack.dir/Stack/Stack.cpp.o -c /home/shaozeping/coding/STL/Stack/Stack.cpp
+CMakeFiles/Stack.dir/Stack/main.cpp.o: CMakeFiles/Stack.dir/flags.make
+CMakeFiles/Stack.dir/Stack/main.cpp.o: /home/shaozeping/coding/STL/Stack/main.cpp
+CMakeFiles/Stack.dir/Stack/main.cpp.o: CMakeFiles/Stack.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Stack.dir/Stack/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Stack.dir/Stack/main.cpp.o -MF CMakeFiles/Stack.dir/Stack/main.cpp.o.d -o CMakeFiles/Stack.dir/Stack/main.cpp.o -c /home/shaozeping/coding/STL/Stack/main.cpp
 
-CMakeFiles/Stack.dir/Stack/Stack.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Stack.dir/Stack/Stack.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaozeping/coding/STL/Stack/Stack.cpp > CMakeFiles/Stack.dir/Stack/Stack.cpp.i
+CMakeFiles/Stack.dir/Stack/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Stack.dir/Stack/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaozeping/coding/STL/Stack/main.cpp > CMakeFiles/Stack.dir/Stack/main.cpp.i
 
-CMakeFiles/Stack.dir/Stack/Stack.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Stack.dir/Stack/Stack.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaozeping/coding/STL/Stack/Stack.cpp -o CMakeFiles/Stack.dir/Stack/Stack.cpp.s
+CMakeFiles/Stack.dir/Stack/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Stack.dir/Stack/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaozeping/coding/STL/Stack/main.cpp -o CMakeFiles/Stack.dir/Stack/main.cpp.s
 
 # Object files for target Stack
 Stack_OBJECTS = \
-"CMakeFiles/Stack.dir/Stack/Stack.cpp.o"
+"CMakeFiles/Stack.dir/Stack/main.cpp.o"
 
 # External object files for target Stack
 Stack_EXTERNAL_OBJECTS =
 
-bin/Stack: CMakeFiles/Stack.dir/Stack/Stack.cpp.o
+bin/Stack: CMakeFiles/Stack.dir/Stack/main.cpp.o
 bin/Stack: CMakeFiles/Stack.dir/build.make
 bin/Stack: CMakeFiles/Stack.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/Stack"

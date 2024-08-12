@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/deque.dir/Deque/deque.cpp.o -o bin/deque
+/usr/bin/c++ CMakeFiles/deque.dir/Deque/main.cpp.o -o bin/deque

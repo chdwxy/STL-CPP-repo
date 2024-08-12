@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/shaozeping/coding/STL/RedBlackTree/RedBlackTree.cpp" "CMakeFiles/RedBlackTree.dir/RedBlackTree/RedBlackTree.cpp.o" "gcc" "CMakeFiles/RedBlackTree.dir/RedBlackTree/RedBlackTree.cpp.o.d"
+  "/home/shaozeping/coding/STL/RedBlackTree/main.cpp" "CMakeFiles/RedBlackTree.dir/RedBlackTree/main.cpp.o" "gcc" "CMakeFiles/RedBlackTree.dir/RedBlackTree/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

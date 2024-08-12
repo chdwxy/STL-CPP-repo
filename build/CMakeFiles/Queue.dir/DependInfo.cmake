@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/shaozeping/coding/STL/Queue/Queue.cpp" "CMakeFiles/Queue.dir/Queue/Queue.cpp.o" "gcc" "CMakeFiles/Queue.dir/Queue/Queue.cpp.o.d"
+  "/home/shaozeping/coding/STL/Queue/main.cpp" "CMakeFiles/Queue.dir/Queue/main.cpp.o" "gcc" "CMakeFiles/Queue.dir/Queue/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

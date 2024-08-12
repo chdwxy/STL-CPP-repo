@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/HashTable.dir/HashTable/HashTable.cpp.o"
-  "CMakeFiles/HashTable.dir/HashTable/HashTable.cpp.o.d"
+  "CMakeFiles/HashTable.dir/HashTable/main.cpp.o"
+  "CMakeFiles/HashTable.dir/HashTable/main.cpp.o.d"
   "bin/HashTable"
   "bin/HashTable.pdb"
 )

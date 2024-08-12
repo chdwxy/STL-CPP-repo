@@ -69,28 +69,28 @@ include CMakeFiles/priority_queue.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/priority_queue.dir/flags.make
 
-CMakeFiles/priority_queue.dir/priority_queue/priority_queue.cpp.o: CMakeFiles/priority_queue.dir/flags.make
-CMakeFiles/priority_queue.dir/priority_queue/priority_queue.cpp.o: /home/shaozeping/coding/STL/priority_queue/priority_queue.cpp
-CMakeFiles/priority_queue.dir/priority_queue/priority_queue.cpp.o: CMakeFiles/priority_queue.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/priority_queue.dir/priority_queue/priority_queue.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/priority_queue.dir/priority_queue/priority_queue.cpp.o -MF CMakeFiles/priority_queue.dir/priority_queue/priority_queue.cpp.o.d -o CMakeFiles/priority_queue.dir/priority_queue/priority_queue.cpp.o -c /home/shaozeping/coding/STL/priority_queue/priority_queue.cpp
+CMakeFiles/priority_queue.dir/priority_queue/main.cpp.o: CMakeFiles/priority_queue.dir/flags.make
+CMakeFiles/priority_queue.dir/priority_queue/main.cpp.o: /home/shaozeping/coding/STL/priority_queue/main.cpp
+CMakeFiles/priority_queue.dir/priority_queue/main.cpp.o: CMakeFiles/priority_queue.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/priority_queue.dir/priority_queue/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/priority_queue.dir/priority_queue/main.cpp.o -MF CMakeFiles/priority_queue.dir/priority_queue/main.cpp.o.d -o CMakeFiles/priority_queue.dir/priority_queue/main.cpp.o -c /home/shaozeping/coding/STL/priority_queue/main.cpp
 
-CMakeFiles/priority_queue.dir/priority_queue/priority_queue.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/priority_queue.dir/priority_queue/priority_queue.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaozeping/coding/STL/priority_queue/priority_queue.cpp > CMakeFiles/priority_queue.dir/priority_queue/priority_queue.cpp.i
+CMakeFiles/priority_queue.dir/priority_queue/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/priority_queue.dir/priority_queue/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaozeping/coding/STL/priority_queue/main.cpp > CMakeFiles/priority_queue.dir/priority_queue/main.cpp.i
 
-CMakeFiles/priority_queue.dir/priority_queue/priority_queue.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/priority_queue.dir/priority_queue/priority_queue.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaozeping/coding/STL/priority_queue/priority_queue.cpp -o CMakeFiles/priority_queue.dir/priority_queue/priority_queue.cpp.s
+CMakeFiles/priority_queue.dir/priority_queue/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/priority_queue.dir/priority_queue/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaozeping/coding/STL/priority_queue/main.cpp -o CMakeFiles/priority_queue.dir/priority_queue/main.cpp.s
 
 # Object files for target priority_queue
 priority_queue_OBJECTS = \
-"CMakeFiles/priority_queue.dir/priority_queue/priority_queue.cpp.o"
+"CMakeFiles/priority_queue.dir/priority_queue/main.cpp.o"
 
 # External object files for target priority_queue
 priority_queue_EXTERNAL_OBJECTS =
 
-bin/priority_queue: CMakeFiles/priority_queue.dir/priority_queue/priority_queue.cpp.o
+bin/priority_queue: CMakeFiles/priority_queue.dir/priority_queue/main.cpp.o
 bin/priority_queue: CMakeFiles/priority_queue.dir/build.make
 bin/priority_queue: CMakeFiles/priority_queue.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/priority_queue"

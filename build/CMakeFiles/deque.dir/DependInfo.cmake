@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/shaozeping/coding/STL/Deque/deque.cpp" "CMakeFiles/deque.dir/Deque/deque.cpp.o" "gcc" "CMakeFiles/deque.dir/Deque/deque.cpp.o.d"
+  "/home/shaozeping/coding/STL/Deque/main.cpp" "CMakeFiles/deque.dir/Deque/main.cpp.o" "gcc" "CMakeFiles/deque.dir/Deque/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

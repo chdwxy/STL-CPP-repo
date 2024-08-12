@@ -69,28 +69,28 @@ include CMakeFiles/deque.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/deque.dir/flags.make
 
-CMakeFiles/deque.dir/Deque/deque.cpp.o: CMakeFiles/deque.dir/flags.make
-CMakeFiles/deque.dir/Deque/deque.cpp.o: /home/shaozeping/coding/STL/Deque/deque.cpp
-CMakeFiles/deque.dir/Deque/deque.cpp.o: CMakeFiles/deque.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/deque.dir/Deque/deque.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/deque.dir/Deque/deque.cpp.o -MF CMakeFiles/deque.dir/Deque/deque.cpp.o.d -o CMakeFiles/deque.dir/Deque/deque.cpp.o -c /home/shaozeping/coding/STL/Deque/deque.cpp
+CMakeFiles/deque.dir/Deque/main.cpp.o: CMakeFiles/deque.dir/flags.make
+CMakeFiles/deque.dir/Deque/main.cpp.o: /home/shaozeping/coding/STL/Deque/main.cpp
+CMakeFiles/deque.dir/Deque/main.cpp.o: CMakeFiles/deque.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/deque.dir/Deque/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/deque.dir/Deque/main.cpp.o -MF CMakeFiles/deque.dir/Deque/main.cpp.o.d -o CMakeFiles/deque.dir/Deque/main.cpp.o -c /home/shaozeping/coding/STL/Deque/main.cpp
 
-CMakeFiles/deque.dir/Deque/deque.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/deque.dir/Deque/deque.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaozeping/coding/STL/Deque/deque.cpp > CMakeFiles/deque.dir/Deque/deque.cpp.i
+CMakeFiles/deque.dir/Deque/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/deque.dir/Deque/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaozeping/coding/STL/Deque/main.cpp > CMakeFiles/deque.dir/Deque/main.cpp.i
 
-CMakeFiles/deque.dir/Deque/deque.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/deque.dir/Deque/deque.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaozeping/coding/STL/Deque/deque.cpp -o CMakeFiles/deque.dir/Deque/deque.cpp.s
+CMakeFiles/deque.dir/Deque/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/deque.dir/Deque/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaozeping/coding/STL/Deque/main.cpp -o CMakeFiles/deque.dir/Deque/main.cpp.s
 
 # Object files for target deque
 deque_OBJECTS = \
-"CMakeFiles/deque.dir/Deque/deque.cpp.o"
+"CMakeFiles/deque.dir/Deque/main.cpp.o"
 
 # External object files for target deque
 deque_EXTERNAL_OBJECTS =
 
-bin/deque: CMakeFiles/deque.dir/Deque/deque.cpp.o
+bin/deque: CMakeFiles/deque.dir/Deque/main.cpp.o
 bin/deque: CMakeFiles/deque.dir/build.make
 bin/deque: CMakeFiles/deque.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/deque"

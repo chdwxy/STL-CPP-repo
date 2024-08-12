@@ -69,28 +69,28 @@ include CMakeFiles/list.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/list.dir/flags.make
 
-CMakeFiles/list.dir/List/list.cpp.o: CMakeFiles/list.dir/flags.make
-CMakeFiles/list.dir/List/list.cpp.o: /home/shaozeping/coding/STL/List/list.cpp
-CMakeFiles/list.dir/List/list.cpp.o: CMakeFiles/list.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/list.dir/List/list.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/list.dir/List/list.cpp.o -MF CMakeFiles/list.dir/List/list.cpp.o.d -o CMakeFiles/list.dir/List/list.cpp.o -c /home/shaozeping/coding/STL/List/list.cpp
+CMakeFiles/list.dir/List/main.cpp.o: CMakeFiles/list.dir/flags.make
+CMakeFiles/list.dir/List/main.cpp.o: /home/shaozeping/coding/STL/List/main.cpp
+CMakeFiles/list.dir/List/main.cpp.o: CMakeFiles/list.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/list.dir/List/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/list.dir/List/main.cpp.o -MF CMakeFiles/list.dir/List/main.cpp.o.d -o CMakeFiles/list.dir/List/main.cpp.o -c /home/shaozeping/coding/STL/List/main.cpp
 
-CMakeFiles/list.dir/List/list.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/list.dir/List/list.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaozeping/coding/STL/List/list.cpp > CMakeFiles/list.dir/List/list.cpp.i
+CMakeFiles/list.dir/List/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/list.dir/List/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaozeping/coding/STL/List/main.cpp > CMakeFiles/list.dir/List/main.cpp.i
 
-CMakeFiles/list.dir/List/list.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/list.dir/List/list.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaozeping/coding/STL/List/list.cpp -o CMakeFiles/list.dir/List/list.cpp.s
+CMakeFiles/list.dir/List/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/list.dir/List/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaozeping/coding/STL/List/main.cpp -o CMakeFiles/list.dir/List/main.cpp.s
 
 # Object files for target list
 list_OBJECTS = \
-"CMakeFiles/list.dir/List/list.cpp.o"
+"CMakeFiles/list.dir/List/main.cpp.o"
 
 # External object files for target list
 list_EXTERNAL_OBJECTS =
 
-bin/list: CMakeFiles/list.dir/List/list.cpp.o
+bin/list: CMakeFiles/list.dir/List/main.cpp.o
 bin/list: CMakeFiles/list.dir/build.make
 bin/list: CMakeFiles/list.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/list"

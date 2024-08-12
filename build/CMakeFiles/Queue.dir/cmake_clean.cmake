@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Queue.dir/Queue/Queue.cpp.o"
-  "CMakeFiles/Queue.dir/Queue/Queue.cpp.o.d"
+  "CMakeFiles/Queue.dir/Queue/main.cpp.o"
+  "CMakeFiles/Queue.dir/Queue/main.cpp.o.d"
   "bin/Queue"
   "bin/Queue.pdb"
 )

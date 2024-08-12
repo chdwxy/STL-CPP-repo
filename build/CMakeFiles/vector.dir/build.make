@@ -69,28 +69,28 @@ include CMakeFiles/vector.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/vector.dir/flags.make
 
-CMakeFiles/vector.dir/Vector/vector.cpp.o: CMakeFiles/vector.dir/flags.make
-CMakeFiles/vector.dir/Vector/vector.cpp.o: /home/shaozeping/coding/STL/Vector/vector.cpp
-CMakeFiles/vector.dir/Vector/vector.cpp.o: CMakeFiles/vector.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/vector.dir/Vector/vector.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vector.dir/Vector/vector.cpp.o -MF CMakeFiles/vector.dir/Vector/vector.cpp.o.d -o CMakeFiles/vector.dir/Vector/vector.cpp.o -c /home/shaozeping/coding/STL/Vector/vector.cpp
+CMakeFiles/vector.dir/Vector/main.cpp.o: CMakeFiles/vector.dir/flags.make
+CMakeFiles/vector.dir/Vector/main.cpp.o: /home/shaozeping/coding/STL/Vector/main.cpp
+CMakeFiles/vector.dir/Vector/main.cpp.o: CMakeFiles/vector.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/vector.dir/Vector/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vector.dir/Vector/main.cpp.o -MF CMakeFiles/vector.dir/Vector/main.cpp.o.d -o CMakeFiles/vector.dir/Vector/main.cpp.o -c /home/shaozeping/coding/STL/Vector/main.cpp
 
-CMakeFiles/vector.dir/Vector/vector.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vector.dir/Vector/vector.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaozeping/coding/STL/Vector/vector.cpp > CMakeFiles/vector.dir/Vector/vector.cpp.i
+CMakeFiles/vector.dir/Vector/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vector.dir/Vector/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaozeping/coding/STL/Vector/main.cpp > CMakeFiles/vector.dir/Vector/main.cpp.i
 
-CMakeFiles/vector.dir/Vector/vector.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vector.dir/Vector/vector.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaozeping/coding/STL/Vector/vector.cpp -o CMakeFiles/vector.dir/Vector/vector.cpp.s
+CMakeFiles/vector.dir/Vector/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vector.dir/Vector/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaozeping/coding/STL/Vector/main.cpp -o CMakeFiles/vector.dir/Vector/main.cpp.s
 
 # Object files for target vector
 vector_OBJECTS = \
-"CMakeFiles/vector.dir/Vector/vector.cpp.o"
+"CMakeFiles/vector.dir/Vector/main.cpp.o"
 
 # External object files for target vector
 vector_EXTERNAL_OBJECTS =
 
-bin/vector: CMakeFiles/vector.dir/Vector/vector.cpp.o
+bin/vector: CMakeFiles/vector.dir/Vector/main.cpp.o
 bin/vector: CMakeFiles/vector.dir/build.make
 bin/vector: CMakeFiles/vector.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/vector"

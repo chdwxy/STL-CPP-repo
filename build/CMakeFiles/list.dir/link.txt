@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/list.dir/List/list.cpp.o -o bin/list
+/usr/bin/c++ CMakeFiles/list.dir/List/main.cpp.o -o bin/list

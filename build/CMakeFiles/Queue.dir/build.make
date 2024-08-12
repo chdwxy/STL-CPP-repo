@@ -69,28 +69,28 @@ include CMakeFiles/Queue.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Queue.dir/flags.make
 
-CMakeFiles/Queue.dir/Queue/Queue.cpp.o: CMakeFiles/Queue.dir/flags.make
-CMakeFiles/Queue.dir/Queue/Queue.cpp.o: /home/shaozeping/coding/STL/Queue/Queue.cpp
-CMakeFiles/Queue.dir/Queue/Queue.cpp.o: CMakeFiles/Queue.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Queue.dir/Queue/Queue.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Queue.dir/Queue/Queue.cpp.o -MF CMakeFiles/Queue.dir/Queue/Queue.cpp.o.d -o CMakeFiles/Queue.dir/Queue/Queue.cpp.o -c /home/shaozeping/coding/STL/Queue/Queue.cpp
+CMakeFiles/Queue.dir/Queue/main.cpp.o: CMakeFiles/Queue.dir/flags.make
+CMakeFiles/Queue.dir/Queue/main.cpp.o: /home/shaozeping/coding/STL/Queue/main.cpp
+CMakeFiles/Queue.dir/Queue/main.cpp.o: CMakeFiles/Queue.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Queue.dir/Queue/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Queue.dir/Queue/main.cpp.o -MF CMakeFiles/Queue.dir/Queue/main.cpp.o.d -o CMakeFiles/Queue.dir/Queue/main.cpp.o -c /home/shaozeping/coding/STL/Queue/main.cpp
 
-CMakeFiles/Queue.dir/Queue/Queue.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Queue.dir/Queue/Queue.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaozeping/coding/STL/Queue/Queue.cpp > CMakeFiles/Queue.dir/Queue/Queue.cpp.i
+CMakeFiles/Queue.dir/Queue/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Queue.dir/Queue/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shaozeping/coding/STL/Queue/main.cpp > CMakeFiles/Queue.dir/Queue/main.cpp.i
 
-CMakeFiles/Queue.dir/Queue/Queue.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Queue.dir/Queue/Queue.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaozeping/coding/STL/Queue/Queue.cpp -o CMakeFiles/Queue.dir/Queue/Queue.cpp.s
+CMakeFiles/Queue.dir/Queue/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Queue.dir/Queue/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shaozeping/coding/STL/Queue/main.cpp -o CMakeFiles/Queue.dir/Queue/main.cpp.s
 
 # Object files for target Queue
 Queue_OBJECTS = \
-"CMakeFiles/Queue.dir/Queue/Queue.cpp.o"
+"CMakeFiles/Queue.dir/Queue/main.cpp.o"
 
 # External object files for target Queue
 Queue_EXTERNAL_OBJECTS =
 
-bin/Queue: CMakeFiles/Queue.dir/Queue/Queue.cpp.o
+bin/Queue: CMakeFiles/Queue.dir/Queue/main.cpp.o
 bin/Queue: CMakeFiles/Queue.dir/build.make
 bin/Queue: CMakeFiles/Queue.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/Queue"

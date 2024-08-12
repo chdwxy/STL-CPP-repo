@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/shaozeping/coding/STL/priority_queue/priority_queue.cpp" "CMakeFiles/priority_queue.dir/priority_queue/priority_queue.cpp.o" "gcc" "CMakeFiles/priority_queue.dir/priority_queue/priority_queue.cpp.o.d"
+  "/home/shaozeping/coding/STL/priority_queue/main.cpp" "CMakeFiles/priority_queue.dir/priority_queue/main.cpp.o" "gcc" "CMakeFiles/priority_queue.dir/priority_queue/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
