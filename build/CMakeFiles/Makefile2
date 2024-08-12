@@ -68,6 +68,12 @@ all: CMakeFiles/list.dir/all
 all: CMakeFiles/deque.dir/all
 all: CMakeFiles/HashTable.dir/all
 all: CMakeFiles/RedBlackTree.dir/all
+all: CMakeFiles/set.dir/all
+all: CMakeFiles/set_.dir/all
+all: CMakeFiles/Unordered_Set.dir/all
+all: CMakeFiles/Unordered_Set_.dir/all
+all: CMakeFiles/Multiset.dir/all
+all: CMakeFiles/Multiset_.dir/all
 all: CMakeFiles/Stack.dir/all
 all: CMakeFiles/Queue.dir/all
 all: CMakeFiles/priority_queue.dir/all
@@ -83,6 +89,12 @@ clean: CMakeFiles/list.dir/clean
 clean: CMakeFiles/deque.dir/clean
 clean: CMakeFiles/HashTable.dir/clean
 clean: CMakeFiles/RedBlackTree.dir/clean
+clean: CMakeFiles/set.dir/clean
+clean: CMakeFiles/set_.dir/clean
+clean: CMakeFiles/Unordered_Set.dir/clean
+clean: CMakeFiles/Unordered_Set_.dir/clean
+clean: CMakeFiles/Multiset.dir/clean
+clean: CMakeFiles/Multiset_.dir/clean
 clean: CMakeFiles/Stack.dir/clean
 clean: CMakeFiles/Queue.dir/clean
 clean: CMakeFiles/priority_queue.dir/clean
@@ -95,7 +107,7 @@ clean: CMakeFiles/priority_queue.dir/clean
 CMakeFiles/vector.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=15,16 "Built target vector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=27,28 "Built target vector"
 .PHONY : CMakeFiles/vector.dir/all
 
 # Build rule for subdir invocation for target.
@@ -121,7 +133,7 @@ CMakeFiles/vector.dir/clean:
 CMakeFiles/list.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=11,12 "Built target list"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=19,20 "Built target list"
 .PHONY : CMakeFiles/list.dir/all
 
 # Build rule for subdir invocation for target.
@@ -147,7 +159,7 @@ CMakeFiles/list.dir/clean:
 CMakeFiles/deque.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/deque.dir/build.make CMakeFiles/deque.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/deque.dir/build.make CMakeFiles/deque.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=9,10 "Built target deque"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=17,18 "Built target deque"
 .PHONY : CMakeFiles/deque.dir/all
 
 # Build rule for subdir invocation for target.
@@ -199,7 +211,7 @@ CMakeFiles/HashTable.dir/clean:
 CMakeFiles/RedBlackTree.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RedBlackTree.dir/build.make CMakeFiles/RedBlackTree.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RedBlackTree.dir/build.make CMakeFiles/RedBlackTree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=5,6 "Built target RedBlackTree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=9,10 "Built target RedBlackTree"
 .PHONY : CMakeFiles/RedBlackTree.dir/all
 
 # Build rule for subdir invocation for target.
@@ -219,13 +231,169 @@ CMakeFiles/RedBlackTree.dir/clean:
 .PHONY : CMakeFiles/RedBlackTree.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/set.dir
+
+# All Build rule for target.
+CMakeFiles/set.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/set.dir/build.make CMakeFiles/set.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/set.dir/build.make CMakeFiles/set.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=23,24 "Built target set"
+.PHONY : CMakeFiles/set.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/set.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shaozeping/coding/STL/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/set.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shaozeping/coding/STL/build/CMakeFiles 0
+.PHONY : CMakeFiles/set.dir/rule
+
+# Convenience name for target.
+set: CMakeFiles/set.dir/rule
+.PHONY : set
+
+# clean rule for target.
+CMakeFiles/set.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/set.dir/build.make CMakeFiles/set.dir/clean
+.PHONY : CMakeFiles/set.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/set_.dir
+
+# All Build rule for target.
+CMakeFiles/set_.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_.dir/build.make CMakeFiles/set_.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_.dir/build.make CMakeFiles/set_.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=25,26 "Built target set_"
+.PHONY : CMakeFiles/set_.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/set_.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shaozeping/coding/STL/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/set_.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shaozeping/coding/STL/build/CMakeFiles 0
+.PHONY : CMakeFiles/set_.dir/rule
+
+# Convenience name for target.
+set_: CMakeFiles/set_.dir/rule
+.PHONY : set_
+
+# clean rule for target.
+CMakeFiles/set_.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_.dir/build.make CMakeFiles/set_.dir/clean
+.PHONY : CMakeFiles/set_.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Unordered_Set.dir
+
+# All Build rule for target.
+CMakeFiles/Unordered_Set.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Unordered_Set.dir/build.make CMakeFiles/Unordered_Set.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Unordered_Set.dir/build.make CMakeFiles/Unordered_Set.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=13,14 "Built target Unordered_Set"
+.PHONY : CMakeFiles/Unordered_Set.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Unordered_Set.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shaozeping/coding/STL/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Unordered_Set.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shaozeping/coding/STL/build/CMakeFiles 0
+.PHONY : CMakeFiles/Unordered_Set.dir/rule
+
+# Convenience name for target.
+Unordered_Set: CMakeFiles/Unordered_Set.dir/rule
+.PHONY : Unordered_Set
+
+# clean rule for target.
+CMakeFiles/Unordered_Set.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Unordered_Set.dir/build.make CMakeFiles/Unordered_Set.dir/clean
+.PHONY : CMakeFiles/Unordered_Set.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Unordered_Set_.dir
+
+# All Build rule for target.
+CMakeFiles/Unordered_Set_.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Unordered_Set_.dir/build.make CMakeFiles/Unordered_Set_.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Unordered_Set_.dir/build.make CMakeFiles/Unordered_Set_.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=15,16 "Built target Unordered_Set_"
+.PHONY : CMakeFiles/Unordered_Set_.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Unordered_Set_.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shaozeping/coding/STL/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Unordered_Set_.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shaozeping/coding/STL/build/CMakeFiles 0
+.PHONY : CMakeFiles/Unordered_Set_.dir/rule
+
+# Convenience name for target.
+Unordered_Set_: CMakeFiles/Unordered_Set_.dir/rule
+.PHONY : Unordered_Set_
+
+# clean rule for target.
+CMakeFiles/Unordered_Set_.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Unordered_Set_.dir/build.make CMakeFiles/Unordered_Set_.dir/clean
+.PHONY : CMakeFiles/Unordered_Set_.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Multiset.dir
+
+# All Build rule for target.
+CMakeFiles/Multiset.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multiset.dir/build.make CMakeFiles/Multiset.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multiset.dir/build.make CMakeFiles/Multiset.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=3,4 "Built target Multiset"
+.PHONY : CMakeFiles/Multiset.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Multiset.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shaozeping/coding/STL/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Multiset.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shaozeping/coding/STL/build/CMakeFiles 0
+.PHONY : CMakeFiles/Multiset.dir/rule
+
+# Convenience name for target.
+Multiset: CMakeFiles/Multiset.dir/rule
+.PHONY : Multiset
+
+# clean rule for target.
+CMakeFiles/Multiset.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multiset.dir/build.make CMakeFiles/Multiset.dir/clean
+.PHONY : CMakeFiles/Multiset.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Multiset_.dir
+
+# All Build rule for target.
+CMakeFiles/Multiset_.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multiset_.dir/build.make CMakeFiles/Multiset_.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multiset_.dir/build.make CMakeFiles/Multiset_.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=5,6 "Built target Multiset_"
+.PHONY : CMakeFiles/Multiset_.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Multiset_.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shaozeping/coding/STL/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Multiset_.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shaozeping/coding/STL/build/CMakeFiles 0
+.PHONY : CMakeFiles/Multiset_.dir/rule
+
+# Convenience name for target.
+Multiset_: CMakeFiles/Multiset_.dir/rule
+.PHONY : Multiset_
+
+# clean rule for target.
+CMakeFiles/Multiset_.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multiset_.dir/build.make CMakeFiles/Multiset_.dir/clean
+.PHONY : CMakeFiles/Multiset_.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Stack.dir
 
 # All Build rule for target.
 CMakeFiles/Stack.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stack.dir/build.make CMakeFiles/Stack.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stack.dir/build.make CMakeFiles/Stack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=7,8 "Built target Stack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=11,12 "Built target Stack"
 .PHONY : CMakeFiles/Stack.dir/all
 
 # Build rule for subdir invocation for target.
@@ -251,7 +419,7 @@ CMakeFiles/Stack.dir/clean:
 CMakeFiles/Queue.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Queue.dir/build.make CMakeFiles/Queue.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Queue.dir/build.make CMakeFiles/Queue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=3,4 "Built target Queue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=7,8 "Built target Queue"
 .PHONY : CMakeFiles/Queue.dir/all
 
 # Build rule for subdir invocation for target.
@@ -277,7 +445,7 @@ CMakeFiles/Queue.dir/clean:
 CMakeFiles/priority_queue.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue.dir/build.make CMakeFiles/priority_queue.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue.dir/build.make CMakeFiles/priority_queue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=13,14 "Built target priority_queue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/shaozeping/coding/STL/build/CMakeFiles --progress-num=21,22 "Built target priority_queue"
 .PHONY : CMakeFiles/priority_queue.dir/all
 
 # Build rule for subdir invocation for target.

@@ -22,6 +22,33 @@ set_target_properties(HashTable PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINA
 add_executable(RedBlackTree RedBlackTree/main.cpp)
 set_target_properties(RedBlackTree PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
+# Set
+add_executable(set Set/main.cpp)
+set_target_properties(set PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+
+# Set_
+add_executable(set_ Set_/main.cpp)
+set_target_properties(set_ PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+
+# Unordered_Set
+add_executable(Unordered_Set Unordered_Set/main.cpp)
+set_target_properties(Unordered_Set PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+
+# Unordered_Set_
+add_executable(Unordered_Set_ Unordered_Set_/main.cpp)
+set_target_properties(Unordered_Set_ PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+
+# Multiset
+add_executable(Multiset multiset/main.cpp)
+set_target_properties(Multiset PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+
+# Multiset_
+add_executable(Multiset_ multiset_/main.cpp)
+set_target_properties(Multiset_ PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+
+
+
+
 # Stack
 add_executable(Stack Stack/main.cpp)
 set_target_properties(Stack PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)

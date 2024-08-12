@@ -182,6 +182,84 @@ RedBlackTree/fast:
 .PHONY : RedBlackTree/fast
 
 #=============================================================================
+# Target rules for targets named set
+
+# Build rule for target.
+set: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 set
+.PHONY : set
+
+# fast build rule for target.
+set/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/set.dir/build.make CMakeFiles/set.dir/build
+.PHONY : set/fast
+
+#=============================================================================
+# Target rules for targets named set_
+
+# Build rule for target.
+set_: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 set_
+.PHONY : set_
+
+# fast build rule for target.
+set_/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_.dir/build.make CMakeFiles/set_.dir/build
+.PHONY : set_/fast
+
+#=============================================================================
+# Target rules for targets named Unordered_Set
+
+# Build rule for target.
+Unordered_Set: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Unordered_Set
+.PHONY : Unordered_Set
+
+# fast build rule for target.
+Unordered_Set/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Unordered_Set.dir/build.make CMakeFiles/Unordered_Set.dir/build
+.PHONY : Unordered_Set/fast
+
+#=============================================================================
+# Target rules for targets named Unordered_Set_
+
+# Build rule for target.
+Unordered_Set_: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Unordered_Set_
+.PHONY : Unordered_Set_
+
+# fast build rule for target.
+Unordered_Set_/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Unordered_Set_.dir/build.make CMakeFiles/Unordered_Set_.dir/build
+.PHONY : Unordered_Set_/fast
+
+#=============================================================================
+# Target rules for targets named Multiset
+
+# Build rule for target.
+Multiset: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Multiset
+.PHONY : Multiset
+
+# fast build rule for target.
+Multiset/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multiset.dir/build.make CMakeFiles/Multiset.dir/build
+.PHONY : Multiset/fast
+
+#=============================================================================
+# Target rules for targets named Multiset_
+
+# Build rule for target.
+Multiset_: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Multiset_
+.PHONY : Multiset_
+
+# fast build rule for target.
+Multiset_/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multiset_.dir/build.make CMakeFiles/Multiset_.dir/build
+.PHONY : Multiset_/fast
+
+#=============================================================================
 # Target rules for targets named Stack
 
 # Build rule for target.
@@ -340,6 +418,54 @@ RedBlackTree/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RedBlackTree.dir/build.make CMakeFiles/RedBlackTree.dir/RedBlackTree/main.cpp.s
 .PHONY : RedBlackTree/main.cpp.s
 
+Set/main.o: Set/main.cpp.o
+.PHONY : Set/main.o
+
+# target to build an object file
+Set/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/set.dir/build.make CMakeFiles/set.dir/Set/main.cpp.o
+.PHONY : Set/main.cpp.o
+
+Set/main.i: Set/main.cpp.i
+.PHONY : Set/main.i
+
+# target to preprocess a source file
+Set/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/set.dir/build.make CMakeFiles/set.dir/Set/main.cpp.i
+.PHONY : Set/main.cpp.i
+
+Set/main.s: Set/main.cpp.s
+.PHONY : Set/main.s
+
+# target to generate assembly for a file
+Set/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/set.dir/build.make CMakeFiles/set.dir/Set/main.cpp.s
+.PHONY : Set/main.cpp.s
+
+Set_/main.o: Set_/main.cpp.o
+.PHONY : Set_/main.o
+
+# target to build an object file
+Set_/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_.dir/build.make CMakeFiles/set_.dir/Set_/main.cpp.o
+.PHONY : Set_/main.cpp.o
+
+Set_/main.i: Set_/main.cpp.i
+.PHONY : Set_/main.i
+
+# target to preprocess a source file
+Set_/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_.dir/build.make CMakeFiles/set_.dir/Set_/main.cpp.i
+.PHONY : Set_/main.cpp.i
+
+Set_/main.s: Set_/main.cpp.s
+.PHONY : Set_/main.s
+
+# target to generate assembly for a file
+Set_/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_.dir/build.make CMakeFiles/set_.dir/Set_/main.cpp.s
+.PHONY : Set_/main.cpp.s
+
 Stack/main.o: Stack/main.cpp.o
 .PHONY : Stack/main.o
 
@@ -364,6 +490,54 @@ Stack/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stack.dir/build.make CMakeFiles/Stack.dir/Stack/main.cpp.s
 .PHONY : Stack/main.cpp.s
 
+Unordered_Set/main.o: Unordered_Set/main.cpp.o
+.PHONY : Unordered_Set/main.o
+
+# target to build an object file
+Unordered_Set/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Unordered_Set.dir/build.make CMakeFiles/Unordered_Set.dir/Unordered_Set/main.cpp.o
+.PHONY : Unordered_Set/main.cpp.o
+
+Unordered_Set/main.i: Unordered_Set/main.cpp.i
+.PHONY : Unordered_Set/main.i
+
+# target to preprocess a source file
+Unordered_Set/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Unordered_Set.dir/build.make CMakeFiles/Unordered_Set.dir/Unordered_Set/main.cpp.i
+.PHONY : Unordered_Set/main.cpp.i
+
+Unordered_Set/main.s: Unordered_Set/main.cpp.s
+.PHONY : Unordered_Set/main.s
+
+# target to generate assembly for a file
+Unordered_Set/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Unordered_Set.dir/build.make CMakeFiles/Unordered_Set.dir/Unordered_Set/main.cpp.s
+.PHONY : Unordered_Set/main.cpp.s
+
+Unordered_Set_/main.o: Unordered_Set_/main.cpp.o
+.PHONY : Unordered_Set_/main.o
+
+# target to build an object file
+Unordered_Set_/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Unordered_Set_.dir/build.make CMakeFiles/Unordered_Set_.dir/Unordered_Set_/main.cpp.o
+.PHONY : Unordered_Set_/main.cpp.o
+
+Unordered_Set_/main.i: Unordered_Set_/main.cpp.i
+.PHONY : Unordered_Set_/main.i
+
+# target to preprocess a source file
+Unordered_Set_/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Unordered_Set_.dir/build.make CMakeFiles/Unordered_Set_.dir/Unordered_Set_/main.cpp.i
+.PHONY : Unordered_Set_/main.cpp.i
+
+Unordered_Set_/main.s: Unordered_Set_/main.cpp.s
+.PHONY : Unordered_Set_/main.s
+
+# target to generate assembly for a file
+Unordered_Set_/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Unordered_Set_.dir/build.make CMakeFiles/Unordered_Set_.dir/Unordered_Set_/main.cpp.s
+.PHONY : Unordered_Set_/main.cpp.s
+
 Vector/main.o: Vector/main.cpp.o
 .PHONY : Vector/main.o
 
@@ -387,6 +561,54 @@ Vector/main.s: Vector/main.cpp.s
 Vector/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/Vector/main.cpp.s
 .PHONY : Vector/main.cpp.s
+
+multiset/main.o: multiset/main.cpp.o
+.PHONY : multiset/main.o
+
+# target to build an object file
+multiset/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multiset.dir/build.make CMakeFiles/Multiset.dir/multiset/main.cpp.o
+.PHONY : multiset/main.cpp.o
+
+multiset/main.i: multiset/main.cpp.i
+.PHONY : multiset/main.i
+
+# target to preprocess a source file
+multiset/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multiset.dir/build.make CMakeFiles/Multiset.dir/multiset/main.cpp.i
+.PHONY : multiset/main.cpp.i
+
+multiset/main.s: multiset/main.cpp.s
+.PHONY : multiset/main.s
+
+# target to generate assembly for a file
+multiset/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multiset.dir/build.make CMakeFiles/Multiset.dir/multiset/main.cpp.s
+.PHONY : multiset/main.cpp.s
+
+multiset_/main.o: multiset_/main.cpp.o
+.PHONY : multiset_/main.o
+
+# target to build an object file
+multiset_/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multiset_.dir/build.make CMakeFiles/Multiset_.dir/multiset_/main.cpp.o
+.PHONY : multiset_/main.cpp.o
+
+multiset_/main.i: multiset_/main.cpp.i
+.PHONY : multiset_/main.i
+
+# target to preprocess a source file
+multiset_/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multiset_.dir/build.make CMakeFiles/Multiset_.dir/multiset_/main.cpp.i
+.PHONY : multiset_/main.cpp.i
+
+multiset_/main.s: multiset_/main.cpp.s
+.PHONY : multiset_/main.s
+
+# target to generate assembly for a file
+multiset_/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multiset_.dir/build.make CMakeFiles/Multiset_.dir/multiset_/main.cpp.s
+.PHONY : multiset_/main.cpp.s
 
 priority_queue/main.o: priority_queue/main.cpp.o
 .PHONY : priority_queue/main.o
@@ -421,12 +643,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... HashTable"
+	@echo "... Multiset"
+	@echo "... Multiset_"
 	@echo "... Queue"
 	@echo "... RedBlackTree"
 	@echo "... Stack"
+	@echo "... Unordered_Set"
+	@echo "... Unordered_Set_"
 	@echo "... deque"
 	@echo "... list"
 	@echo "... priority_queue"
+	@echo "... set"
+	@echo "... set_"
 	@echo "... vector"
 	@echo "... Deque/main.o"
 	@echo "... Deque/main.i"
@@ -443,12 +671,30 @@ help:
 	@echo "... RedBlackTree/main.o"
 	@echo "... RedBlackTree/main.i"
 	@echo "... RedBlackTree/main.s"
+	@echo "... Set/main.o"
+	@echo "... Set/main.i"
+	@echo "... Set/main.s"
+	@echo "... Set_/main.o"
+	@echo "... Set_/main.i"
+	@echo "... Set_/main.s"
 	@echo "... Stack/main.o"
 	@echo "... Stack/main.i"
 	@echo "... Stack/main.s"
+	@echo "... Unordered_Set/main.o"
+	@echo "... Unordered_Set/main.i"
+	@echo "... Unordered_Set/main.s"
+	@echo "... Unordered_Set_/main.o"
+	@echo "... Unordered_Set_/main.i"
+	@echo "... Unordered_Set_/main.s"
 	@echo "... Vector/main.o"
 	@echo "... Vector/main.i"
 	@echo "... Vector/main.s"
+	@echo "... multiset/main.o"
+	@echo "... multiset/main.i"
+	@echo "... multiset/main.s"
+	@echo "... multiset_/main.o"
+	@echo "... multiset_/main.i"
+	@echo "... multiset_/main.s"
 	@echo "... priority_queue/main.o"
 	@echo "... priority_queue/main.i"
 	@echo "... priority_queue/main.s"
