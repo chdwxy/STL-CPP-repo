@@ -46,8 +46,29 @@ set_target_properties(Multiset PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINAR
 add_executable(Multiset_ multiset_/main.cpp)
 set_target_properties(Multiset_ PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
+# Map
+add_executable(map map/main.cpp)
+set_target_properties(map PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
+# Map_
+add_executable(map_ map_/main.cpp)
+set_target_properties(map_ PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
+# Unordered_Map
+add_executable(Unordered_map Unordered_map/main.cpp)
+set_target_properties(map PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+
+# Unordered_Map_
+add_executable(Unordered_map_ Unordered_map_/main.cpp)
+set_target_properties(Unordered_map_ PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+
+# Multi_Map
+add_executable(Multi_map Multi_map/main.cpp)
+set_target_properties(Multi_map PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+
+# Multi_Map_
+add_executable(Multi_map_ Multi_map_/main.cpp)
+set_target_properties(Multi_map_ PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 # Stack
 add_executable(Stack Stack/main.cpp)
