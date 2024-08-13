@@ -2,17 +2,16 @@ cmake_minimum_required(VERSION 3.21)
 project(STL)
 set(CMAKE_CXX_STANDARD 17)
 
-# Vector
-add_executable(vector Vector/main.cpp)
-set_target_properties(vector PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+set(PACKAGE_NAME STL)
 
-# List
-add_executable(list List/main.cpp)
-set_target_properties(list PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
-# Deque
-add_executable(deque Deque/main.cpp)
-set_target_properties(deque PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+# Library target
+add_library(STL INTERFACE)
+
+add_subdirectory(AssociativeContainers bin_AC)
+add_subdirectory(ContainerAdapters bin_CA)
+add_subdirectory(SequenceContainers bin_SC)
+add_subdirectory(UnorderedAssociativeContainers bin_UAC)
 
 # HashTable
 add_executable(HashTable HashTable/main.cpp)
@@ -21,63 +20,3 @@ set_target_properties(HashTable PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINA
 # RedBlackTree
 add_executable(RedBlackTree RedBlackTree/main.cpp)
 set_target_properties(RedBlackTree PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-
-# Set
-add_executable(set Set/main.cpp)
-set_target_properties(set PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-
-# Set_
-add_executable(set_ Set_/main.cpp)
-set_target_properties(set_ PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-
-# Unordered_Set
-add_executable(Unordered_Set Unordered_Set/main.cpp)
-set_target_properties(Unordered_Set PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-
-# Unordered_Set_
-add_executable(Unordered_Set_ Unordered_Set_/main.cpp)
-set_target_properties(Unordered_Set_ PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-
-# Multiset
-add_executable(Multiset multiset/main.cpp)
-set_target_properties(Multiset PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-
-# Multiset_
-add_executable(Multiset_ multiset_/main.cpp)
-set_target_properties(Multiset_ PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-
-# Map
-add_executable(map map/main.cpp)
-set_target_properties(map PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-
-# Map_
-add_executable(map_ map_/main.cpp)
-set_target_properties(map_ PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-
-# Unordered_Map
-add_executable(Unordered_map Unordered_map/main.cpp)
-set_target_properties(map PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-
-# Unordered_Map_
-add_executable(Unordered_map_ Unordered_map_/main.cpp)
-set_target_properties(Unordered_map_ PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-
-# Multi_Map
-add_executable(Multi_map Multi_map/main.cpp)
-set_target_properties(Multi_map PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-
-# Multi_Map_
-add_executable(Multi_map_ Multi_map_/main.cpp)
-set_target_properties(Multi_map_ PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-
-# Stack
-add_executable(Stack Stack/main.cpp)
-set_target_properties(Stack PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-
-# Queue
-add_executable(Queue Queue/main.cpp)
-set_target_properties(Queue PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-
-# priority_queue
-add_executable(priority_queue priority_queue/main.cpp)
-set_target_properties(priority_queue PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)

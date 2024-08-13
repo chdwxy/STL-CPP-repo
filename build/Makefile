@@ -117,45 +117,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named vector
-
-# Build rule for target.
-vector: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vector
-.PHONY : vector
-
-# fast build rule for target.
-vector/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/build
-.PHONY : vector/fast
-
-#=============================================================================
-# Target rules for targets named list
-
-# Build rule for target.
-list: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 list
-.PHONY : list
-
-# fast build rule for target.
-list/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/build
-.PHONY : list/fast
-
-#=============================================================================
-# Target rules for targets named deque
-
-# Build rule for target.
-deque: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 deque
-.PHONY : deque
-
-# fast build rule for target.
-deque/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/deque.dir/build.make CMakeFiles/deque.dir/build
-.PHONY : deque/fast
-
-#=============================================================================
 # Target rules for targets named HashTable
 
 # Build rule for target.
@@ -191,7 +152,7 @@ set: cmake_check_build_system
 
 # fast build rule for target.
 set/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/set.dir/build.make CMakeFiles/set.dir/build
+	$(MAKE) $(MAKESILENT) -f bin_AC/CMakeFiles/set.dir/build.make bin_AC/CMakeFiles/set.dir/build
 .PHONY : set/fast
 
 #=============================================================================
@@ -204,34 +165,8 @@ set_: cmake_check_build_system
 
 # fast build rule for target.
 set_/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_.dir/build.make CMakeFiles/set_.dir/build
+	$(MAKE) $(MAKESILENT) -f bin_AC/CMakeFiles/set_.dir/build.make bin_AC/CMakeFiles/set_.dir/build
 .PHONY : set_/fast
-
-#=============================================================================
-# Target rules for targets named Unordered_Set
-
-# Build rule for target.
-Unordered_Set: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Unordered_Set
-.PHONY : Unordered_Set
-
-# fast build rule for target.
-Unordered_Set/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Unordered_Set.dir/build.make CMakeFiles/Unordered_Set.dir/build
-.PHONY : Unordered_Set/fast
-
-#=============================================================================
-# Target rules for targets named Unordered_Set_
-
-# Build rule for target.
-Unordered_Set_: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Unordered_Set_
-.PHONY : Unordered_Set_
-
-# fast build rule for target.
-Unordered_Set_/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Unordered_Set_.dir/build.make CMakeFiles/Unordered_Set_.dir/build
-.PHONY : Unordered_Set_/fast
 
 #=============================================================================
 # Target rules for targets named Multiset
@@ -243,7 +178,7 @@ Multiset: cmake_check_build_system
 
 # fast build rule for target.
 Multiset/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multiset.dir/build.make CMakeFiles/Multiset.dir/build
+	$(MAKE) $(MAKESILENT) -f bin_AC/CMakeFiles/Multiset.dir/build.make bin_AC/CMakeFiles/Multiset.dir/build
 .PHONY : Multiset/fast
 
 #=============================================================================
@@ -256,7 +191,7 @@ Multiset_: cmake_check_build_system
 
 # fast build rule for target.
 Multiset_/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multiset_.dir/build.make CMakeFiles/Multiset_.dir/build
+	$(MAKE) $(MAKESILENT) -f bin_AC/CMakeFiles/Multiset_.dir/build.make bin_AC/CMakeFiles/Multiset_.dir/build
 .PHONY : Multiset_/fast
 
 #=============================================================================
@@ -269,7 +204,7 @@ map: cmake_check_build_system
 
 # fast build rule for target.
 map/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/map.dir/build.make CMakeFiles/map.dir/build
+	$(MAKE) $(MAKESILENT) -f bin_AC/CMakeFiles/map.dir/build.make bin_AC/CMakeFiles/map.dir/build
 .PHONY : map/fast
 
 #=============================================================================
@@ -282,34 +217,8 @@ map_: cmake_check_build_system
 
 # fast build rule for target.
 map_/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/map_.dir/build.make CMakeFiles/map_.dir/build
+	$(MAKE) $(MAKESILENT) -f bin_AC/CMakeFiles/map_.dir/build.make bin_AC/CMakeFiles/map_.dir/build
 .PHONY : map_/fast
-
-#=============================================================================
-# Target rules for targets named Unordered_map
-
-# Build rule for target.
-Unordered_map: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Unordered_map
-.PHONY : Unordered_map
-
-# fast build rule for target.
-Unordered_map/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Unordered_map.dir/build.make CMakeFiles/Unordered_map.dir/build
-.PHONY : Unordered_map/fast
-
-#=============================================================================
-# Target rules for targets named Unordered_map_
-
-# Build rule for target.
-Unordered_map_: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Unordered_map_
-.PHONY : Unordered_map_
-
-# fast build rule for target.
-Unordered_map_/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Unordered_map_.dir/build.make CMakeFiles/Unordered_map_.dir/build
-.PHONY : Unordered_map_/fast
 
 #=============================================================================
 # Target rules for targets named Multi_map
@@ -321,7 +230,7 @@ Multi_map: cmake_check_build_system
 
 # fast build rule for target.
 Multi_map/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_map.dir/build.make CMakeFiles/Multi_map.dir/build
+	$(MAKE) $(MAKESILENT) -f bin_AC/CMakeFiles/Multi_map.dir/build.make bin_AC/CMakeFiles/Multi_map.dir/build
 .PHONY : Multi_map/fast
 
 #=============================================================================
@@ -334,7 +243,7 @@ Multi_map_: cmake_check_build_system
 
 # fast build rule for target.
 Multi_map_/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_map_.dir/build.make CMakeFiles/Multi_map_.dir/build
+	$(MAKE) $(MAKESILENT) -f bin_AC/CMakeFiles/Multi_map_.dir/build.make bin_AC/CMakeFiles/Multi_map_.dir/build
 .PHONY : Multi_map_/fast
 
 #=============================================================================
@@ -347,7 +256,7 @@ Stack: cmake_check_build_system
 
 # fast build rule for target.
 Stack/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stack.dir/build.make CMakeFiles/Stack.dir/build
+	$(MAKE) $(MAKESILENT) -f bin_CA/CMakeFiles/Stack.dir/build.make bin_CA/CMakeFiles/Stack.dir/build
 .PHONY : Stack/fast
 
 #=============================================================================
@@ -360,7 +269,7 @@ Queue: cmake_check_build_system
 
 # fast build rule for target.
 Queue/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Queue.dir/build.make CMakeFiles/Queue.dir/build
+	$(MAKE) $(MAKESILENT) -f bin_CA/CMakeFiles/Queue.dir/build.make bin_CA/CMakeFiles/Queue.dir/build
 .PHONY : Queue/fast
 
 #=============================================================================
@@ -373,32 +282,99 @@ priority_queue: cmake_check_build_system
 
 # fast build rule for target.
 priority_queue/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue.dir/build.make CMakeFiles/priority_queue.dir/build
+	$(MAKE) $(MAKESILENT) -f bin_CA/CMakeFiles/priority_queue.dir/build.make bin_CA/CMakeFiles/priority_queue.dir/build
 .PHONY : priority_queue/fast
 
-Deque/main.o: Deque/main.cpp.o
-.PHONY : Deque/main.o
+#=============================================================================
+# Target rules for targets named vector
 
-# target to build an object file
-Deque/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/deque.dir/build.make CMakeFiles/deque.dir/Deque/main.cpp.o
-.PHONY : Deque/main.cpp.o
+# Build rule for target.
+vector: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vector
+.PHONY : vector
 
-Deque/main.i: Deque/main.cpp.i
-.PHONY : Deque/main.i
+# fast build rule for target.
+vector/fast:
+	$(MAKE) $(MAKESILENT) -f bin_SC/CMakeFiles/vector.dir/build.make bin_SC/CMakeFiles/vector.dir/build
+.PHONY : vector/fast
 
-# target to preprocess a source file
-Deque/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/deque.dir/build.make CMakeFiles/deque.dir/Deque/main.cpp.i
-.PHONY : Deque/main.cpp.i
+#=============================================================================
+# Target rules for targets named list
 
-Deque/main.s: Deque/main.cpp.s
-.PHONY : Deque/main.s
+# Build rule for target.
+list: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 list
+.PHONY : list
 
-# target to generate assembly for a file
-Deque/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/deque.dir/build.make CMakeFiles/deque.dir/Deque/main.cpp.s
-.PHONY : Deque/main.cpp.s
+# fast build rule for target.
+list/fast:
+	$(MAKE) $(MAKESILENT) -f bin_SC/CMakeFiles/list.dir/build.make bin_SC/CMakeFiles/list.dir/build
+.PHONY : list/fast
+
+#=============================================================================
+# Target rules for targets named deque
+
+# Build rule for target.
+deque: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 deque
+.PHONY : deque
+
+# fast build rule for target.
+deque/fast:
+	$(MAKE) $(MAKESILENT) -f bin_SC/CMakeFiles/deque.dir/build.make bin_SC/CMakeFiles/deque.dir/build
+.PHONY : deque/fast
+
+#=============================================================================
+# Target rules for targets named Unordered_Set
+
+# Build rule for target.
+Unordered_Set: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Unordered_Set
+.PHONY : Unordered_Set
+
+# fast build rule for target.
+Unordered_Set/fast:
+	$(MAKE) $(MAKESILENT) -f bin_UAC/CMakeFiles/Unordered_Set.dir/build.make bin_UAC/CMakeFiles/Unordered_Set.dir/build
+.PHONY : Unordered_Set/fast
+
+#=============================================================================
+# Target rules for targets named Unordered_Set_
+
+# Build rule for target.
+Unordered_Set_: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Unordered_Set_
+.PHONY : Unordered_Set_
+
+# fast build rule for target.
+Unordered_Set_/fast:
+	$(MAKE) $(MAKESILENT) -f bin_UAC/CMakeFiles/Unordered_Set_.dir/build.make bin_UAC/CMakeFiles/Unordered_Set_.dir/build
+.PHONY : Unordered_Set_/fast
+
+#=============================================================================
+# Target rules for targets named Unordered_map
+
+# Build rule for target.
+Unordered_map: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Unordered_map
+.PHONY : Unordered_map
+
+# fast build rule for target.
+Unordered_map/fast:
+	$(MAKE) $(MAKESILENT) -f bin_UAC/CMakeFiles/Unordered_map.dir/build.make bin_UAC/CMakeFiles/Unordered_map.dir/build
+.PHONY : Unordered_map/fast
+
+#=============================================================================
+# Target rules for targets named Unordered_map_
+
+# Build rule for target.
+Unordered_map_: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Unordered_map_
+.PHONY : Unordered_map_
+
+# fast build rule for target.
+Unordered_map_/fast:
+	$(MAKE) $(MAKESILENT) -f bin_UAC/CMakeFiles/Unordered_map_.dir/build.make bin_UAC/CMakeFiles/Unordered_map_.dir/build
+.PHONY : Unordered_map_/fast
 
 HashTable/main.o: HashTable/main.cpp.o
 .PHONY : HashTable/main.o
@@ -424,102 +400,6 @@ HashTable/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HashTable.dir/build.make CMakeFiles/HashTable.dir/HashTable/main.cpp.s
 .PHONY : HashTable/main.cpp.s
 
-List/main.o: List/main.cpp.o
-.PHONY : List/main.o
-
-# target to build an object file
-List/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/List/main.cpp.o
-.PHONY : List/main.cpp.o
-
-List/main.i: List/main.cpp.i
-.PHONY : List/main.i
-
-# target to preprocess a source file
-List/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/List/main.cpp.i
-.PHONY : List/main.cpp.i
-
-List/main.s: List/main.cpp.s
-.PHONY : List/main.s
-
-# target to generate assembly for a file
-List/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/List/main.cpp.s
-.PHONY : List/main.cpp.s
-
-Multi_map/main.o: Multi_map/main.cpp.o
-.PHONY : Multi_map/main.o
-
-# target to build an object file
-Multi_map/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_map.dir/build.make CMakeFiles/Multi_map.dir/Multi_map/main.cpp.o
-.PHONY : Multi_map/main.cpp.o
-
-Multi_map/main.i: Multi_map/main.cpp.i
-.PHONY : Multi_map/main.i
-
-# target to preprocess a source file
-Multi_map/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_map.dir/build.make CMakeFiles/Multi_map.dir/Multi_map/main.cpp.i
-.PHONY : Multi_map/main.cpp.i
-
-Multi_map/main.s: Multi_map/main.cpp.s
-.PHONY : Multi_map/main.s
-
-# target to generate assembly for a file
-Multi_map/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_map.dir/build.make CMakeFiles/Multi_map.dir/Multi_map/main.cpp.s
-.PHONY : Multi_map/main.cpp.s
-
-Multi_map_/main.o: Multi_map_/main.cpp.o
-.PHONY : Multi_map_/main.o
-
-# target to build an object file
-Multi_map_/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_map_.dir/build.make CMakeFiles/Multi_map_.dir/Multi_map_/main.cpp.o
-.PHONY : Multi_map_/main.cpp.o
-
-Multi_map_/main.i: Multi_map_/main.cpp.i
-.PHONY : Multi_map_/main.i
-
-# target to preprocess a source file
-Multi_map_/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_map_.dir/build.make CMakeFiles/Multi_map_.dir/Multi_map_/main.cpp.i
-.PHONY : Multi_map_/main.cpp.i
-
-Multi_map_/main.s: Multi_map_/main.cpp.s
-.PHONY : Multi_map_/main.s
-
-# target to generate assembly for a file
-Multi_map_/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multi_map_.dir/build.make CMakeFiles/Multi_map_.dir/Multi_map_/main.cpp.s
-.PHONY : Multi_map_/main.cpp.s
-
-Queue/main.o: Queue/main.cpp.o
-.PHONY : Queue/main.o
-
-# target to build an object file
-Queue/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Queue.dir/build.make CMakeFiles/Queue.dir/Queue/main.cpp.o
-.PHONY : Queue/main.cpp.o
-
-Queue/main.i: Queue/main.cpp.i
-.PHONY : Queue/main.i
-
-# target to preprocess a source file
-Queue/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Queue.dir/build.make CMakeFiles/Queue.dir/Queue/main.cpp.i
-.PHONY : Queue/main.cpp.i
-
-Queue/main.s: Queue/main.cpp.s
-.PHONY : Queue/main.s
-
-# target to generate assembly for a file
-Queue/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Queue.dir/build.make CMakeFiles/Queue.dir/Queue/main.cpp.s
-.PHONY : Queue/main.cpp.s
-
 RedBlackTree/main.o: RedBlackTree/main.cpp.o
 .PHONY : RedBlackTree/main.o
 
@@ -543,318 +423,6 @@ RedBlackTree/main.s: RedBlackTree/main.cpp.s
 RedBlackTree/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RedBlackTree.dir/build.make CMakeFiles/RedBlackTree.dir/RedBlackTree/main.cpp.s
 .PHONY : RedBlackTree/main.cpp.s
-
-Set/main.o: Set/main.cpp.o
-.PHONY : Set/main.o
-
-# target to build an object file
-Set/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/set.dir/build.make CMakeFiles/set.dir/Set/main.cpp.o
-.PHONY : Set/main.cpp.o
-
-Set/main.i: Set/main.cpp.i
-.PHONY : Set/main.i
-
-# target to preprocess a source file
-Set/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/set.dir/build.make CMakeFiles/set.dir/Set/main.cpp.i
-.PHONY : Set/main.cpp.i
-
-Set/main.s: Set/main.cpp.s
-.PHONY : Set/main.s
-
-# target to generate assembly for a file
-Set/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/set.dir/build.make CMakeFiles/set.dir/Set/main.cpp.s
-.PHONY : Set/main.cpp.s
-
-Set_/main.o: Set_/main.cpp.o
-.PHONY : Set_/main.o
-
-# target to build an object file
-Set_/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_.dir/build.make CMakeFiles/set_.dir/Set_/main.cpp.o
-.PHONY : Set_/main.cpp.o
-
-Set_/main.i: Set_/main.cpp.i
-.PHONY : Set_/main.i
-
-# target to preprocess a source file
-Set_/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_.dir/build.make CMakeFiles/set_.dir/Set_/main.cpp.i
-.PHONY : Set_/main.cpp.i
-
-Set_/main.s: Set_/main.cpp.s
-.PHONY : Set_/main.s
-
-# target to generate assembly for a file
-Set_/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/set_.dir/build.make CMakeFiles/set_.dir/Set_/main.cpp.s
-.PHONY : Set_/main.cpp.s
-
-Stack/main.o: Stack/main.cpp.o
-.PHONY : Stack/main.o
-
-# target to build an object file
-Stack/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stack.dir/build.make CMakeFiles/Stack.dir/Stack/main.cpp.o
-.PHONY : Stack/main.cpp.o
-
-Stack/main.i: Stack/main.cpp.i
-.PHONY : Stack/main.i
-
-# target to preprocess a source file
-Stack/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stack.dir/build.make CMakeFiles/Stack.dir/Stack/main.cpp.i
-.PHONY : Stack/main.cpp.i
-
-Stack/main.s: Stack/main.cpp.s
-.PHONY : Stack/main.s
-
-# target to generate assembly for a file
-Stack/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stack.dir/build.make CMakeFiles/Stack.dir/Stack/main.cpp.s
-.PHONY : Stack/main.cpp.s
-
-Unordered_Set/main.o: Unordered_Set/main.cpp.o
-.PHONY : Unordered_Set/main.o
-
-# target to build an object file
-Unordered_Set/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Unordered_Set.dir/build.make CMakeFiles/Unordered_Set.dir/Unordered_Set/main.cpp.o
-.PHONY : Unordered_Set/main.cpp.o
-
-Unordered_Set/main.i: Unordered_Set/main.cpp.i
-.PHONY : Unordered_Set/main.i
-
-# target to preprocess a source file
-Unordered_Set/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Unordered_Set.dir/build.make CMakeFiles/Unordered_Set.dir/Unordered_Set/main.cpp.i
-.PHONY : Unordered_Set/main.cpp.i
-
-Unordered_Set/main.s: Unordered_Set/main.cpp.s
-.PHONY : Unordered_Set/main.s
-
-# target to generate assembly for a file
-Unordered_Set/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Unordered_Set.dir/build.make CMakeFiles/Unordered_Set.dir/Unordered_Set/main.cpp.s
-.PHONY : Unordered_Set/main.cpp.s
-
-Unordered_Set_/main.o: Unordered_Set_/main.cpp.o
-.PHONY : Unordered_Set_/main.o
-
-# target to build an object file
-Unordered_Set_/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Unordered_Set_.dir/build.make CMakeFiles/Unordered_Set_.dir/Unordered_Set_/main.cpp.o
-.PHONY : Unordered_Set_/main.cpp.o
-
-Unordered_Set_/main.i: Unordered_Set_/main.cpp.i
-.PHONY : Unordered_Set_/main.i
-
-# target to preprocess a source file
-Unordered_Set_/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Unordered_Set_.dir/build.make CMakeFiles/Unordered_Set_.dir/Unordered_Set_/main.cpp.i
-.PHONY : Unordered_Set_/main.cpp.i
-
-Unordered_Set_/main.s: Unordered_Set_/main.cpp.s
-.PHONY : Unordered_Set_/main.s
-
-# target to generate assembly for a file
-Unordered_Set_/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Unordered_Set_.dir/build.make CMakeFiles/Unordered_Set_.dir/Unordered_Set_/main.cpp.s
-.PHONY : Unordered_Set_/main.cpp.s
-
-Unordered_map/main.o: Unordered_map/main.cpp.o
-.PHONY : Unordered_map/main.o
-
-# target to build an object file
-Unordered_map/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Unordered_map.dir/build.make CMakeFiles/Unordered_map.dir/Unordered_map/main.cpp.o
-.PHONY : Unordered_map/main.cpp.o
-
-Unordered_map/main.i: Unordered_map/main.cpp.i
-.PHONY : Unordered_map/main.i
-
-# target to preprocess a source file
-Unordered_map/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Unordered_map.dir/build.make CMakeFiles/Unordered_map.dir/Unordered_map/main.cpp.i
-.PHONY : Unordered_map/main.cpp.i
-
-Unordered_map/main.s: Unordered_map/main.cpp.s
-.PHONY : Unordered_map/main.s
-
-# target to generate assembly for a file
-Unordered_map/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Unordered_map.dir/build.make CMakeFiles/Unordered_map.dir/Unordered_map/main.cpp.s
-.PHONY : Unordered_map/main.cpp.s
-
-Unordered_map_/main.o: Unordered_map_/main.cpp.o
-.PHONY : Unordered_map_/main.o
-
-# target to build an object file
-Unordered_map_/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Unordered_map_.dir/build.make CMakeFiles/Unordered_map_.dir/Unordered_map_/main.cpp.o
-.PHONY : Unordered_map_/main.cpp.o
-
-Unordered_map_/main.i: Unordered_map_/main.cpp.i
-.PHONY : Unordered_map_/main.i
-
-# target to preprocess a source file
-Unordered_map_/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Unordered_map_.dir/build.make CMakeFiles/Unordered_map_.dir/Unordered_map_/main.cpp.i
-.PHONY : Unordered_map_/main.cpp.i
-
-Unordered_map_/main.s: Unordered_map_/main.cpp.s
-.PHONY : Unordered_map_/main.s
-
-# target to generate assembly for a file
-Unordered_map_/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Unordered_map_.dir/build.make CMakeFiles/Unordered_map_.dir/Unordered_map_/main.cpp.s
-.PHONY : Unordered_map_/main.cpp.s
-
-Vector/main.o: Vector/main.cpp.o
-.PHONY : Vector/main.o
-
-# target to build an object file
-Vector/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/Vector/main.cpp.o
-.PHONY : Vector/main.cpp.o
-
-Vector/main.i: Vector/main.cpp.i
-.PHONY : Vector/main.i
-
-# target to preprocess a source file
-Vector/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/Vector/main.cpp.i
-.PHONY : Vector/main.cpp.i
-
-Vector/main.s: Vector/main.cpp.s
-.PHONY : Vector/main.s
-
-# target to generate assembly for a file
-Vector/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/Vector/main.cpp.s
-.PHONY : Vector/main.cpp.s
-
-map/main.o: map/main.cpp.o
-.PHONY : map/main.o
-
-# target to build an object file
-map/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/map.dir/build.make CMakeFiles/map.dir/map/main.cpp.o
-.PHONY : map/main.cpp.o
-
-map/main.i: map/main.cpp.i
-.PHONY : map/main.i
-
-# target to preprocess a source file
-map/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/map.dir/build.make CMakeFiles/map.dir/map/main.cpp.i
-.PHONY : map/main.cpp.i
-
-map/main.s: map/main.cpp.s
-.PHONY : map/main.s
-
-# target to generate assembly for a file
-map/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/map.dir/build.make CMakeFiles/map.dir/map/main.cpp.s
-.PHONY : map/main.cpp.s
-
-map_/main.o: map_/main.cpp.o
-.PHONY : map_/main.o
-
-# target to build an object file
-map_/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/map_.dir/build.make CMakeFiles/map_.dir/map_/main.cpp.o
-.PHONY : map_/main.cpp.o
-
-map_/main.i: map_/main.cpp.i
-.PHONY : map_/main.i
-
-# target to preprocess a source file
-map_/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/map_.dir/build.make CMakeFiles/map_.dir/map_/main.cpp.i
-.PHONY : map_/main.cpp.i
-
-map_/main.s: map_/main.cpp.s
-.PHONY : map_/main.s
-
-# target to generate assembly for a file
-map_/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/map_.dir/build.make CMakeFiles/map_.dir/map_/main.cpp.s
-.PHONY : map_/main.cpp.s
-
-multiset/main.o: multiset/main.cpp.o
-.PHONY : multiset/main.o
-
-# target to build an object file
-multiset/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multiset.dir/build.make CMakeFiles/Multiset.dir/multiset/main.cpp.o
-.PHONY : multiset/main.cpp.o
-
-multiset/main.i: multiset/main.cpp.i
-.PHONY : multiset/main.i
-
-# target to preprocess a source file
-multiset/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multiset.dir/build.make CMakeFiles/Multiset.dir/multiset/main.cpp.i
-.PHONY : multiset/main.cpp.i
-
-multiset/main.s: multiset/main.cpp.s
-.PHONY : multiset/main.s
-
-# target to generate assembly for a file
-multiset/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multiset.dir/build.make CMakeFiles/Multiset.dir/multiset/main.cpp.s
-.PHONY : multiset/main.cpp.s
-
-multiset_/main.o: multiset_/main.cpp.o
-.PHONY : multiset_/main.o
-
-# target to build an object file
-multiset_/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multiset_.dir/build.make CMakeFiles/Multiset_.dir/multiset_/main.cpp.o
-.PHONY : multiset_/main.cpp.o
-
-multiset_/main.i: multiset_/main.cpp.i
-.PHONY : multiset_/main.i
-
-# target to preprocess a source file
-multiset_/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multiset_.dir/build.make CMakeFiles/Multiset_.dir/multiset_/main.cpp.i
-.PHONY : multiset_/main.cpp.i
-
-multiset_/main.s: multiset_/main.cpp.s
-.PHONY : multiset_/main.s
-
-# target to generate assembly for a file
-multiset_/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multiset_.dir/build.make CMakeFiles/Multiset_.dir/multiset_/main.cpp.s
-.PHONY : multiset_/main.cpp.s
-
-priority_queue/main.o: priority_queue/main.cpp.o
-.PHONY : priority_queue/main.o
-
-# target to build an object file
-priority_queue/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue.dir/build.make CMakeFiles/priority_queue.dir/priority_queue/main.cpp.o
-.PHONY : priority_queue/main.cpp.o
-
-priority_queue/main.i: priority_queue/main.cpp.i
-.PHONY : priority_queue/main.i
-
-# target to preprocess a source file
-priority_queue/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue.dir/build.make CMakeFiles/priority_queue.dir/priority_queue/main.cpp.i
-.PHONY : priority_queue/main.cpp.i
-
-priority_queue/main.s: priority_queue/main.cpp.s
-.PHONY : priority_queue/main.s
-
-# target to generate assembly for a file
-priority_queue/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/priority_queue.dir/build.make CMakeFiles/priority_queue.dir/priority_queue/main.cpp.s
-.PHONY : priority_queue/main.cpp.s
 
 # Help Target
 help:
@@ -884,66 +452,12 @@ help:
 	@echo "... set"
 	@echo "... set_"
 	@echo "... vector"
-	@echo "... Deque/main.o"
-	@echo "... Deque/main.i"
-	@echo "... Deque/main.s"
 	@echo "... HashTable/main.o"
 	@echo "... HashTable/main.i"
 	@echo "... HashTable/main.s"
-	@echo "... List/main.o"
-	@echo "... List/main.i"
-	@echo "... List/main.s"
-	@echo "... Multi_map/main.o"
-	@echo "... Multi_map/main.i"
-	@echo "... Multi_map/main.s"
-	@echo "... Multi_map_/main.o"
-	@echo "... Multi_map_/main.i"
-	@echo "... Multi_map_/main.s"
-	@echo "... Queue/main.o"
-	@echo "... Queue/main.i"
-	@echo "... Queue/main.s"
 	@echo "... RedBlackTree/main.o"
 	@echo "... RedBlackTree/main.i"
 	@echo "... RedBlackTree/main.s"
-	@echo "... Set/main.o"
-	@echo "... Set/main.i"
-	@echo "... Set/main.s"
-	@echo "... Set_/main.o"
-	@echo "... Set_/main.i"
-	@echo "... Set_/main.s"
-	@echo "... Stack/main.o"
-	@echo "... Stack/main.i"
-	@echo "... Stack/main.s"
-	@echo "... Unordered_Set/main.o"
-	@echo "... Unordered_Set/main.i"
-	@echo "... Unordered_Set/main.s"
-	@echo "... Unordered_Set_/main.o"
-	@echo "... Unordered_Set_/main.i"
-	@echo "... Unordered_Set_/main.s"
-	@echo "... Unordered_map/main.o"
-	@echo "... Unordered_map/main.i"
-	@echo "... Unordered_map/main.s"
-	@echo "... Unordered_map_/main.o"
-	@echo "... Unordered_map_/main.i"
-	@echo "... Unordered_map_/main.s"
-	@echo "... Vector/main.o"
-	@echo "... Vector/main.i"
-	@echo "... Vector/main.s"
-	@echo "... map/main.o"
-	@echo "... map/main.i"
-	@echo "... map/main.s"
-	@echo "... map_/main.o"
-	@echo "... map_/main.i"
-	@echo "... map_/main.s"
-	@echo "... multiset/main.o"
-	@echo "... multiset/main.i"
-	@echo "... multiset/main.s"
-	@echo "... multiset_/main.o"
-	@echo "... multiset_/main.i"
-	@echo "... multiset_/main.s"
-	@echo "... priority_queue/main.o"
-	@echo "... priority_queue/main.i"
-	@echo "... priority_queue/main.s"
 .PHONY : help
 
 
