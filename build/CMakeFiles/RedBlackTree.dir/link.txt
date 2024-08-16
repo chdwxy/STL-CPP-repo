@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/RedBlackTree.dir/RedBlackTree/main.cpp.o -o bin/RedBlackTree 
